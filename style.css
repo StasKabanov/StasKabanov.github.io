@@ -1,8 +1,11 @@
 
 h1 {
-  font: sans-serif;
+  font-family: Verdana;
 }
 
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+q {
+  font: bold italic 110% serif;
 }
