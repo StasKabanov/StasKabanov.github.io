@@ -9,3 +9,6 @@ p {
 q {
   font: bold italic 110% serif;
 }
+figure {
+  font: normal small-caps 12px/14px fantasy;
+}
