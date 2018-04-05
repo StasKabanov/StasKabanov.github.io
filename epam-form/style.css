@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+}
+
+.h5 {
+    margin-top: 0;
+    color: red;
+    text-align: left;
+}
+
+.h1, .h5, header {
+    clear: both;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+
+.wrapper {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.label {
+    display: block;
+    text-align: left;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-container {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    clear: both;
+    padding-top: 15px;
+}
+.input , .textarea {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.tooltip {
+    background-color: red;
+    height: inherit;
+    padding: 0 5px;
+    display: none;
+    margin-left: 15px;
+    position: relative;
+}
+
+.tooltip:before {
+    content: "";
+    height: inherit;
+    border-top: 5px solid transparent;
+    border-right: 5px solid red;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: -3px;
+    top: 4px;
+}
+
+.popup__placeholder {
+    position: absolute;
+    left: 107px;
+    font-size: 14px;
+    top: 5px;
+    transition: all .2s linear;
+    opacity: 0;
+}
+
+.input:valid + .popup__placeholder {
+    display: block;
+    opacity: 0.4;
+    top:-18px;
+}
+
+.input:invalid + .popup__placeholder {
+    display: block;
+    opacity: 0;
+    color:red;
+    top:0;
+}
+
+.input:focus + .popup__placeholder {
+    color: blue;
+}
+
+.input:focus ~ .tooltip {
+    display: inline-block;
+}
+
+.textarea {
+    max-height: 100px;
+    max-width: 450px;
+}
+
+.form {
+    max-width: 720px;
+    min-width: 320px;
+}
+
+.label-title {
+    display: inline-block;
+    width: 100px;
+}
+
+.button {
+    border:1px solid black;
+    border-radius: 3px;
+    display: block;
+    margin-top: 20px;
+}
