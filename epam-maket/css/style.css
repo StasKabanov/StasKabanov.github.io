@@ -353,7 +353,7 @@ a.header__contact__item:last-of-type {
     margin: 0 auto;
     height: 885px;
 //background: url("/img/main-background.png") no-repeat top left;
-    background: url("/img/monophonic-background.png") no-repeat top left;
+    background: url("img/monophonic-background.png") no-repeat top left;
     padding-top: 265px;
     background-position: center;
 }
