@@ -385,7 +385,7 @@ a {
 
 .main__content {
     padding: 30px 0 0 20px;
-    width: 99.4%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -753,3 +753,9 @@ a {
 }
 
 /*------ /footer -----*/
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .main__content {
+        width: 99.4%;
+    }
+}
